@@ -17,7 +17,7 @@ This project implements deep neural networks for automatic colorization of black
 Clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/yourusername/colorize.git
+git clone https://github.com/eclipse1605/colorizer.git
 cd colorize
 pip install -r requirements.txt
 ```
@@ -105,15 +105,3 @@ Based on the "Real-Time User-Guided Image Colorization with Learned Deep Priors"
 - Output: a* and b* channels of the LAB color space (normalized to [-1, 1])
 - Loss function: L1 loss between predicted and ground truth a*b* channels
 - Optimizer: Adam with learning rate scheduling
-
-## References
-
-1. Zhang, Richard, Phillip Isola, and Alexei A. Efros. "Colorful Image Colorization." In ECCV, 2016.
-2. Zhang, Richard, Jun-Yan Zhu, Phillip Isola, Xinyang Geng, Angela S. Lin, Tianhe Yu, and Alexei A. Efros. "Real-Time User-Guided Image Colorization with Learned Deep Priors." ACM Transactions on Graphics (TOG), 2017.
-
-## Acknowledgements
-
-This implementation is inspired by:
-- [richzhang/colorization](https://github.com/richzhang/colorization)
-- [shsarv/Colorize-Black-White-Image](https://github.com/shsarv/Colorize-Black-White-Image/blob/main/image_colarization.py)
-- [dhananjayan-r/Colorizer](https://github.com/dhananjayan-r/Colorizer) 
